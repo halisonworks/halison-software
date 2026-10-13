@@ -1,6 +1,6 @@
 # KIT Apps User Manual
 
-> Last updated for **v0.1.4**.
+> Last updated for **v0.3.10**.
 
 KIT Apps is a Windows desktop app that turns any AI-generated React component into something you can save, reopen, render live, and ship as its own installer. You paste code, KIT Apps renders it. That's the whole loop.
 
@@ -36,12 +36,10 @@ What it is *not*: a code editor, a debugger, or a project scaffolder. There's no
 
 ## 2. Installing
 
-1. Download the latest `.msi` from [GitHub releases](https://github.com/halisonworks/app-studio-app/releases). Look for `App.Studio_<version>_x64_en-US.msi`.
-2. Double-click. SmartScreen will warn that the build isn't signed, click **More info** → **Run anyway**.
-3. Installs to `C:\Program Files\Halison\KIT Apps\`.
+1. Download the latest installer from [GitHub releases](https://github.com/halisonworks/halison-software/releases). Look for `KIT Apps_<version>_x64-setup.exe` (NSIS) or `KIT Apps_<version>_x64_en-US.msi`.
+2. Double-click. SmartScreen may warn the build isn't code-signed — click **More info** → **Run anyway**.
+3. Installs to `%LOCALAPPDATA%\KIT Apps\` (no admin required).
 4. Launch from the Start menu (search "KIT Apps").
-
-The full tester walkthrough (with smoke canvas + verification steps) lives in [v0.1.0-tester-guide.md](v0.1.0-tester-guide.md).
 
 ---
 
