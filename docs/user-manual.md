@@ -261,7 +261,7 @@ Right after checkout you see your **licence key** (it looks like `KIT-XXXXX-XXXX
 
 ### Activating
 
-In KIT Apps, open **Help > Activate license**, paste the key and confirm. One key works on **two machines**. KIT Apps checks the licence at each launch; without a connection, Pro keeps working for up to 30 days after the last successful check.
+Pro needs **KIT Apps 0.3.13 or newer**; older versions do not accept the key, so [download the latest](https://halison.io/kit-apps/download) first. In KIT Apps, open **Help > Activate license**, paste the key and confirm. One key works on **two machines**. KIT Apps checks the licence at each launch; without a connection, Pro keeps working for up to 30 days after the last successful check.
 
 ### Moving Pro to another machine
 
