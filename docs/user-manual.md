@@ -16,7 +16,8 @@ This manual covers:
 8. [Use cases with example prompts](#8-use-cases-with-example-prompts)
 9. [Saving, renaming, organizing](#9-saving-renaming-organizing)
 10. [Packaging a canvas as a standalone app](#10-packaging-a-canvas-as-a-standalone-app)
-11. [Troubleshooting](#11-troubleshooting)
+11. [KIT Apps Pro](#11-kit-apps-pro)
+12. [Troubleshooting](#12-troubleshooting)
 
 ---
 
@@ -248,7 +249,33 @@ What does NOT get bundled: external libraries. Recharts, lucide-react, and anyth
 
 ---
 
-## 11. Troubleshooting
+## 11. KIT Apps Pro
+
+KIT Apps is free. **Pro** removes the "Made with KIT Apps by Halison.io" watermark from exports and shares, lets standalone apps open without the "Built with KIT Apps" splash, and unlocks the switch that turns usage analytics off in Settings.
+
+### Buying
+
+Pro costs **NOK 87 per month** or **NOK 870 per year** (two months free), VAT included. Both plans start with a **14-day free trial**: you give a card at checkout and nothing is charged until the trial ends. Click **Upgrade** in KIT Apps, or go to [halison.io/pricing](https://halison.io/pricing), and pick a plan. Payment is handled by Stripe, with Link as the merchant of record.
+
+Right after checkout you see your **licence key** (it looks like `KIT-XXXXX-XXXXX-XXXXX-XXXXX`), and it is emailed to you as well.
+
+### Activating
+
+Pro needs **KIT Apps 0.3.13 or newer**; older versions do not accept the key, so [download the latest](https://halison.io/kit-apps/download) first. In KIT Apps, open **Help > Activate license**, paste the key and confirm. One key works on **two machines**. KIT Apps checks the licence at each launch; without a connection, Pro keeps working for up to 30 days after the last successful check.
+
+### Moving Pro to another machine
+
+Open **Settings > License > Deactivate / move to another machine** on the machine you leave, then activate the key on the new one. If you get "already active on all the machines it allows" and can no longer reach an old machine, email [support@halison.io](mailto:support@halison.io) and we free the seats.
+
+### Cancelling, changing card or plan
+
+Open **Settings > License > Manage subscription**. It opens Stripe's customer portal, where you cancel, change your card, switch between monthly and yearly, and download receipts. Cancelling takes effect at the end of the paid period.
+
+If a renewal payment fails, Pro keeps working while Stripe retries the card. Update the card under Manage subscription. Refunds: 14 days on any charge, no questions asked, see the [refund policy](https://halison.io/refund).
+
+---
+
+## 12. Troubleshooting
 
 ### The canvas renders blank / partial
 
